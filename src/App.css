@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@100&family=Nunito:wght@700&family=Quicksand:wght@700&family=Raleway&family=Work+Sans&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  font-family: 'Work Sans';
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(242, 242, 242);
+  position: relative;
+}
+
+html {
+  min-width: min-content;
+  height: 100%;
+  overflow-x: hidden;
+}
