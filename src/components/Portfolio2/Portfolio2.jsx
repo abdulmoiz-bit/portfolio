@@ -1,5 +1,10 @@
 import React from 'react'
-import './Portfolio2.css'
+import './Portfolio2.css';
+import image1 from "../../images/image-01.png";
+import image2 from "../../images/image-02.png";
+import image3 from "../../images/image-03.png";
+import image4 from "../../images/image-04.png";
+import image5 from "../../images/image-05.png";
 import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows';
 
 const Portfolio2 = () => {
@@ -17,8 +22,8 @@ const Portfolio2 = () => {
           </button>
         </div>
         <div className='portfolio-image'>
-          <img src="assets/images/mobile (3).png" alt=""  />
-          <img src="assets/images/mobile (5).png" alt="" />
+          <img src={image1} alt="" />
+          <img src={image2} alt="" />
         </div>
 
       </div>
@@ -33,7 +38,7 @@ const Portfolio2 = () => {
           </button>
         </div>
         <div className='portfolio-one-image'>
-          <img src="assets/images/mobile.png" alt=""  />
+          <img src={image3} alt=""  />
 
         </div>
       </div>
@@ -48,8 +53,8 @@ const Portfolio2 = () => {
           </button>
         </div>
         <div className='portfolio-image'>
-          <img src="assets/images/mobile (10).png" alt=""  />
-          <img src="assets/images/mobile (8).png" alt=""  />
+          <img src={image4} alt=""  />
+          <img src={image5} alt=""  />
         </div>
       </div>
     </div>

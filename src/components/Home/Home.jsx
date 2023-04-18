@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Home.css';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import WbSunnyIcon from '@mui/icons-material/WbSunny';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
+import avatar from "../../images/avatar.png";
+//import WbSunnyIcon from '@mui/icons-material/WbSunny';
+//import DarkModeIcon from '@mui/icons-material/DarkMode';
+//import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 const Home = (props) => {
     const [text, showText] = useState(false);
     //const [open, showOpen] = useState(false);
     const [showMenu, setshowMenu] = useState(false);
     //const [currentoption, setcurrentoption] = useState('LIGHT');
-
 
 
     return (
@@ -32,7 +32,7 @@ const Home = (props) => {
 
             <header className="header-section">
                 <div className='avatar-image' onClick={() => showText(!text)}>
-                    <img src="assets/images/avatar.png" alt="" />
+                    <img src={avatar} alt="" />
                     {
                         text && (
                             <div className='avatar-text' data-aos="zoom-in">
