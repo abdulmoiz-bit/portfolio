@@ -17,15 +17,16 @@ const Portfolio2 = () => {
             a cart that is functioned by redux, a billing address form, a smooth slider,
             and a fully responsive site.
           </p>
-          <button>
-           See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
-          </button>
+          <a target="_blank" rel="noreferrer" href='https://reactjsecommercestore.vercel.app/' style={{textDecoration: "none"}}>
+            <button>
+              See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+            </button>
+          </a>
         </div>
         <div className='portfolio-image'>
-          <img src={image1} alt="" />
-          <img src={image2} alt="" />
+          <img src={image1} alt="" media="(min-width: 902px)"/>      
+          <img  src={image2} alt="" />
         </div>
-
       </div>
       <div className='centerportfolio' data-aos="zoom-out">
         <div className='product-details'>
@@ -33,13 +34,14 @@ const Portfolio2 = () => {
           <p>The React Admin Dashboard has designed by Material UI contained beautiful icons,
             recharts, products and users list with images.
           </p>
-          <button>
-           See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
-          </button>
+          <a target="_blank" rel="noreferrer" href='https://reactjsadmindashboard.vercel.app/' style={{textDecoration: "none"}}>
+            <button>
+              See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+            </button>
+          </a>
         </div>
         <div className='portfolio-one-image'>
-          <img src={image3} alt=""  />
-
+          <img src={image3} alt="" />
         </div>
       </div>
       <div className='centerportfolio' data-aos="zoom-in">
@@ -48,13 +50,15 @@ const Portfolio2 = () => {
           <p>With this amazing TextUtils app, you can convert text into uppercase, lowercase copy text,
             word counters, and more with a dark mode theme.
           </p>
-          <button>
-           See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
-          </button>
+          <a target="_blank" rel="noreferrer" href='https://reactjstextutils.vercel.app/' style={{textDecoration: "none"}}>
+            <button>
+              See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+            </button>
+          </a>
         </div>
         <div className='portfolio-image'>
-          <img src={image4} alt=""  />
-          <img src={image5} alt=""  />
+          <img  src={image4} alt="" />
+          <img src={image5} alt="" />
         </div>
       </div>
     </div>

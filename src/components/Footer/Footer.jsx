@@ -9,9 +9,17 @@ const Footer = () => {
         <>
             <div className='footer'>
                 <div>
-                    <LinkedInIcon/> &nbsp;
-                    <GitHubIcon/>   &nbsp;
-                    <TwitterIcon/>
+                    <a target="_blank" href="https://www.linkedin.com/in/abdul-moiz-rashid/">
+                        <LinkedInIcon /> 
+                    </a>
+                    &nbsp;
+                    <a target="_blank" href='https://github.com/abdulmoiz-bit'>
+                        <GitHubIcon />  
+                    </a>
+                    &nbsp;
+                    <a target="_blank" href='https://twitter.com/AbdulMoizRashi1'>
+                        <TwitterIcon />
+                    </a>
                     <p>Copyright © 2023 Abdul Moiz Rashid. All rights reserved.</p>
                 </div>
             </div>
