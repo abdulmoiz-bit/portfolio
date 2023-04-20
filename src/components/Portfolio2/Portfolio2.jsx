@@ -12,7 +12,7 @@ const Portfolio2 = () => {
     <div className='portfolio2' id='portfolio2'>
       <div className='centerportfolio' data-aos="zoom-in">
         <div className='product-details'>
-          <h3>Ecommerce Store</h3>
+          <h2>Ecommerce Store</h2>
           <p>This Ecommerce Store has contained products fetched by API, a single product page,
             a cart that is functioned by redux, a billing address form, a smooth slider,
             and a fully responsive site.
@@ -30,7 +30,7 @@ const Portfolio2 = () => {
       </div>
       <div className='centerportfolio' data-aos="zoom-out">
         <div className='product-details'>
-          <h3>Admin Dashboard</h3>
+          <h2>Admin Dashboard</h2>
           <p>The React Admin Dashboard has designed by Material UI contained beautiful icons,
             recharts, products and users list with images.
           </p>
@@ -46,7 +46,7 @@ const Portfolio2 = () => {
       </div>
       <div className='centerportfolio' data-aos="zoom-in">
         <div className='product-details'>
-          <h3>TextUtils</h3>
+          <h2>TextUtils</h2>
           <p>With this amazing TextUtils app, you can convert text into uppercase, lowercase copy text,
             word counters, and more with a dark mode theme.
           </p>

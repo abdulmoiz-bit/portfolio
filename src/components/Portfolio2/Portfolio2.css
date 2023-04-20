@@ -10,10 +10,11 @@
   margin: auto;
   margin-bottom:3rem;
 }
-.centerportfolio h3{
+.centerportfolio h2{
   margin-bottom: 1.5rem;
   color: black;
   font-family: Raleway;
+  font-size: 20px;
 }
 .centerportfolio p {
   max-width: 25rem;
@@ -34,14 +35,14 @@
   border: white;
 }
 .product-details{
-  padding: 1.5rem 0;
+  padding: 1.5rem 0.5;
 }
 .portfolio-image {
   position: relative;
-  padding: 1.5rem .5rem;
+  padding: 1.5rem 0.5rem;
 }
 .portfolio-one-image{
-  padding: 1.5rem .5rem;
+  padding: 1.5rem 0.5rem;
 }
 .portfolio-image img:first-child {
   max-height: 60vh;
