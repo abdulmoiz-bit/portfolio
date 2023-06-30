@@ -24,10 +24,11 @@ const Portfolio2 = () => {
           </a>
         </div>
         <div className='portfolio-image'>
-          <img src={image1} alt="" media="(min-width: 902px)"/>      
+          <img src={image1} alt="" />      
           <img  src={image2} alt="" />
         </div>
       </div>
+      {/*
       <div className='centerportfolio' data-aos="zoom-out">
         <div className='product-details'>
           <h2>Admin Dashboard</h2>
@@ -44,6 +45,7 @@ const Portfolio2 = () => {
           <img src={image3} alt="" />
         </div>
       </div>
+  */}
       <div className='centerportfolio' data-aos="zoom-in">
         <div className='product-details'>
           <h2>TextUtils</h2>

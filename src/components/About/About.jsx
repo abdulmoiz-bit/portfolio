@@ -31,7 +31,9 @@ const About = () => {
                         <span>blah</span>
                         <span>blah</span>
                     </p>
-                    <button className='submit'>Resume</button>
+                    <a target="_blank" href="">
+                        <button className='submit'>Resume</button>
+                    </a>
                 </div>
             </div>
         </div>
