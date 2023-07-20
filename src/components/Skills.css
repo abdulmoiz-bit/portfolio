@@ -1,0 +1,45 @@
+.skills {
+  min-width: 100vw;
+  margin-top: 6rem;
+}
+
+.main-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.main-skills h1 {
+  font-size: 2rem;
+}
+
+.skills-one {
+  
+}
+.skills-two {
+
+}
+
+.skills-one div {
+  margin: 4rem 0rem;
+}
+.skills-two div {
+  margin: 4rem 0rem;
+}
+
+.skills-one h1 {
+  margin: 1rem 0rem;
+}
+.skills-two h1 {
+  margin: 1rem 0rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+.main-skills {
+display: list-item;
+text-align: center;
+}
+}

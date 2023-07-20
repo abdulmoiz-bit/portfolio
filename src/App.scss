@@ -1,24 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@100&family=Nunito:wght@700&family=Quicksand:wght@700&family=Raleway&family=Work+Sans&display=swap');
+
+
+:root {
+  --one:rgb(242, 242, 242);
+  --two:  #aaaaaa;
+  --three: #000000;
+  --four: #adf1e0, #8075ff, #ff7171;
+  --five: #ffffff;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Raleway;
+ 
 }
 
 body {
-  min-height: 100vh;
   overflow-x: hidden;
   background-color: rgb(242, 242, 242);
-  position: relative;
+  font-family: Raleway;
+  scroll-behavior: smooth;
 }
 
 html {
-  min-width: min-content;
-  height: 100%;
   overflow-x: hidden;
 }
-@media only screen and (max-width: 480px) {
+
+
+@media only screen and (max-width: 600px) {
   *{
     font-size: 14px;
   }

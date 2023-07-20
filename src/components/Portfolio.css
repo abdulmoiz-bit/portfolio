@@ -1,3 +1,6 @@
+.portfolio {
+  min-width: 100vw;
+}
 .centerportfolio {
   display: flex;
   flex-wrap: wrap;
@@ -8,9 +11,8 @@
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
   border-radius: 2rem;
   margin: auto;
-  margin-bottom:3rem;
 }
-.centerportfolio h2{
+.centerportfolio h2 {
   margin-bottom: 1.5rem;
   color: black;
   font-family: Raleway;
@@ -22,7 +24,7 @@
   font-family: Raleway;
   line-height: 1.6rem;
 }
-.centerportfolio button{
+.centerportfolio button {
   background-color: white;
   cursor: pointer;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
@@ -34,43 +36,13 @@
   align-items: center;
   border: white;
 }
-.product-details{
-  padding: 1.5rem 0.5;
-}
 .portfolio-image {
-  position: relative;
   padding: 1.5rem 0.5rem;
 }
-.portfolio-one-image{
+.portfolio-image img{
+  max-height: 60vh;
+}
+.product-details{
   padding: 1.5rem 0.5rem;
 }
-.portfolio-image img:first-child {
-  max-height: 60vh;
-  transform: rotate(12deg);
-  position: relative;
-}
-.portfolio-image img:last-child {
-  max-height: 35vh;
-  position: absolute;
-  top: 8rem;
-  right: 1rem;
-  transform: rotate(12deg);
-}
-.portfolio-one-image img {
-  max-height: 60vh;
-  transform: rotate(12deg);
-}
-@media only screen and (max-width: 920px) {
-  .portfolio-image img:first-child{
-    display: none;
-  }
-  .portfolio-one-image img{
-    display: none;
-  }
-  .portfolio-image img:last-child{
-    position: relative;
-    transform: rotate(0deg);
-    top: 0;
-    right: 0;
-  }
-}
+

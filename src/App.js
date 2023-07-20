@@ -1,15 +1,13 @@
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Portfolio2 from './components/Portfolio2/Portfolio2';
-import Skills from './components/Skills/Skills';
-import Contact from './components/Contact/Contact';
-import Footer from './components/Footer/Footer';
-import './App.css';
+import MainHome from './pages/MainHome';
+import MainAbout from "./pages/MainAbout"
+import MainContact from "./pages/MainContact"
+import './App.scss';
+import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
 
-//const [currentmode, setcurrentmode] = useState("light")
+  //const [currentmode, setcurrentmode] = useState("light")
   /*
   function changeLightTheme() {
     setcurrentmode("light")
@@ -28,12 +26,11 @@ function App() {
 */
   return (
     <>
-      <Home />
-      <About />
-      <Portfolio2 />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<MainHome />} />
+        <Route path="/about" element={<MainAbout />} />
+        <Route path="/contact" element={<MainContact />} />
+      </Routes>
     </>
   );
 }

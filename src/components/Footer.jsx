@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <>
             <div className='footer'>
-                <div>
+                <div className='footer-links'>
                     <a target="_blank" href="https://www.linkedin.com/in/abdul-moiz-rashid/">
                         <LinkedInIcon /> 
                     </a>
@@ -20,7 +20,7 @@ const Footer = () => {
                     <a target="_blank" href='https://twitter.com/AbdulMoizRashi1'>
                         <TwitterIcon />
                     </a>
-                    <p>Copyright © 2023 Abdul Moiz Rashid. All rights reserved.</p>
+                    <div className='footer-text'> <p>Copyright © 2023 Abdul Moiz Rashid. All rights reserved.</p></div>          
                 </div>
             </div>
 
