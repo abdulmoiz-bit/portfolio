@@ -16,7 +16,7 @@ const Portfolio = () => {
         <div className='product-details'>
           <h2>Ecommerce Store</h2>
           <p>
-            Ecommerce Website has contained products from API, home page with smooth slider,
+            Ecommerce Website that contains products from API, home page with smooth slider,
             a single product page, a cart that is functioned by redux,
             a billing address form, and a fully responsive site.
           </p>
