@@ -16,17 +16,17 @@ const Portfolio = () => {
         <div className='product-details'>
           <h2>Ecommerce Store</h2>
           <p>
-            This Ecommerce Store has contained products fetched by API,
+            Ecommerce Website has contained products from API, home page with smooth slider,
             a single product page, a cart that is functioned by redux,
-            a billing address form, a smooth slider, and a fully responsive site.
+            a billing address form, and a fully responsive site.
           </p>
-          <a target="_blank" rel="noreferrer" href='https://reactjstextutils.vercel.app/' style={{ textDecoration: "none" }}>
+          <a target="_blank" rel="noreferrer" href='https://ecommercestore-kappa.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
               See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
             </button>
           </a>
         </div>
-        
+
         <div className='portfolio-image'>
           <img src={mobile} alt="" />
         </div>
@@ -34,12 +34,14 @@ const Portfolio = () => {
 
       <div className='centerportfolio' style={{ marginTop: "4rem" }}>
         <div className='product-details'>
-          <h2>Sportfolio</h2>
+          <div style={{display: "flex", alignItems: "center"}}>
+          <h2>Sportfolio </h2> 
+          <h2 style={{ fontSize: "14px", marginLeft: "1rem"}}>For A Client</h2>
+          </div>
           <p>
-            With this amazing TextUtils app, you can convert text into uppercase, lowercase copy text,
-            word counters, and more with a dark mode theme.
+           Website to buy ownership in your favorite sports team, just like stocks.
           </p>
-          <a target="_blank" rel="noreferrer" href='https://reactjstextutils.vercel.app/' style={{ textDecoration: "none" }}>
+          <a target="_blank" rel="noreferrer" href='https://mysportfolio.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
               See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
             </button>
@@ -47,12 +49,14 @@ const Portfolio = () => {
         </div>
         <div className='portfolio-image'>
           <img src={mobiletwo} alt="" />
-
         </div>
       </div>
 
       <div className='centerportfolio' style={{ marginTop: "4rem" }}>
-        <h2>StockEx</h2>
+        <div className='product-details' style={{textAlign: "center"}}>
+          <h2>Stockex</h2>
+          <h2 style={{fontSize: "14px"}}>In Development</h2>
+        </div>
       </div>
     </div>
   )

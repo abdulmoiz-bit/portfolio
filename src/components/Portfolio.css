@@ -36,13 +36,14 @@
   align-items: center;
   border: white;
 }
+.product-details{
+  padding: 1.5rem 0.5rem;
+}
+
 .portfolio-image {
   padding: 1.5rem 0.5rem;
 }
 .portfolio-image img{
   max-height: 60vh;
-}
-.product-details{
-  padding: 1.5rem 0.5rem;
 }
 
