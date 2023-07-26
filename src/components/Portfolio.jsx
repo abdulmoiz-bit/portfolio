@@ -22,7 +22,7 @@ const Portfolio = () => {
           </p>
           <a target="_blank" rel="noreferrer" href='https://ecommercestore-kappa.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
-              See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+              See Live &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
             </button>
           </a>
         </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           </p>
           <a target="_blank" rel="noreferrer" href='https://mysportfolio.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
-              See Demo &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+              See Live &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
             </button>
           </a>
         </div>
@@ -55,7 +55,7 @@ const Portfolio = () => {
       <div className='centerportfolio' style={{ marginTop: "4rem" }}>
         <div className='product-details' style={{textAlign: "center"}}>
           <h2>Stockex</h2>
-          <h2 style={{fontSize: "14px"}}>In Development</h2>
+          <h2 style={{fontSize: "14px"}}>Coming Soon</h2>
         </div>
       </div>
     </div>
