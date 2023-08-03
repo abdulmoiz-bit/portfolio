@@ -22,7 +22,7 @@ const Portfolio = () => {
           </p>
           <a target="_blank" rel="noreferrer" href='https://ecommercestore-kappa.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
-              See Live &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+              See The Site Live
             </button>
           </a>
         </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
           </p>
           <a target="_blank" rel="noreferrer" href='https://mysportfolio.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
-              See Live &nbsp; <DesktopWindowsIcon style={{ fill: 'black' }} />
+              See The Site Live 
             </button>
           </a>
         </div>
