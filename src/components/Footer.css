@@ -1,5 +1,5 @@
 .footer {
-  min-height: 30vh;
+  min-height: 22vh;
   min-width: 100vw;
   background-color: rgb(228, 225, 225);
   margin-top: 6rem;
@@ -13,12 +13,6 @@
  margin-top: 3rem;
 }
 .footer-links a{
-  color: black;
+  color: #551a8b;
   padding: .5rem;
-}
-.footer-text{
-  position: absolute;
-  bottom: 3rem;
-  right: 0;
-  left: 0;
 }

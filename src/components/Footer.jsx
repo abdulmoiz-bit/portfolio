@@ -19,8 +19,7 @@ const Footer = () => {
                     &nbsp;
                     <a target="_blank" href='https://twitter.com/AbdulMoizRashi1'>
                         <TwitterIcon />
-                    </a>
-                    <div className='footer-text'> <p>Copyright © 2023 Abdul Moiz Rashid. All rights reserved.</p></div>          
+                    </a>      
                 </div>
             </div>
 
