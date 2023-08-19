@@ -3,6 +3,8 @@ import MainAbout from "./pages/MainAbout"
 import MainContact from "./pages/MainContact"
 import './App.scss';
 import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -26,11 +28,13 @@ function App() {
 */
   return (
     <>
+    <Header/>
       <Routes>
         <Route path="/" element={<MainHome />} />
         <Route path="/about" element={<MainAbout />} />
         <Route path="/contact" element={<MainContact />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

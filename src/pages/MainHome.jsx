@@ -1,15 +1,14 @@
 import React from 'react'
-import Header from "../components/Header"
 import Home from "../components/Home";
 import Portfolio from "../components/Portfolio";
-import Footer from "../components/Footer";
+import Skills from "../components/Skills"
+
 const MainHome = () => {
     return (
         <>
-            <Header/>
             <Home />
             <Portfolio />
-            <Footer />
+            <Skills/>
         </>
     )
 }

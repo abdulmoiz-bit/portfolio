@@ -26,25 +26,32 @@ const Header = () => {
                 }
             </div>
 
+            <div className='menu-list' data-aos="fade-left">
+                <ul>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
+                </ul>
+            </div>
 
-            <div className="menu-btn" style={{ zIndex: "999" }}>
+            <div className="mob-menu-btn">
                 <span onClick={() => setshowMenu(!showMenu)}>
                     {!showMenu ? <MenuIcon /> : <CloseIcon />}
                 </span>
             </div>
-
             {showMenu && (
-                <div className='menu-list' data-aos="fade-left">
+                <div className='mob-menu-list' data-aos="fade-left">
                     <ul>
-                        <li><a><NavLink to="/">Home</NavLink></a></li>
-                        <li><a><NavLink to="/about">About</NavLink></a></li>
-                        <li> <a><NavLink to="/contact">Contact</NavLink></a></li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/contact">Contact</NavLink></li>
                     </ul>
                 </div>
             )
             }
-        </div>
 
+        </div>
     )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css';
 import mobile from "../images/mobile.png";
 import mobiletwo from "../images/mobile-two.png";
-import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows';
+//import DesktopWindowsIcon from '@mui/icons-material/DesktopWindows';
 //import image3 from "../../images/image-03.png";
 //import image4 from "../../images/image-04.png";
 //import image5 from "../../images/image-05.png";

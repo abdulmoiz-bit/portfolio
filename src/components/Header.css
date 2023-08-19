@@ -1,10 +1,11 @@
 .header-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   min-height: 20vh;
 }
 .avatar-image {
+  margin: 0rem 2rem;
   border-color: #ffffff;
   border-style: solid;
   border-width: 15px;
@@ -32,50 +33,73 @@
   border-radius: 100%;
 }
 
-.menu-btn {
-  cursor: pointer;
-  z-index: 999;
-}
-.menu-list {
-  position: absolute;
-  background-color: rgb(0, 0, 0);
-  right: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: start;
-  min-height: 100vh;
-  min-width: 30vw;
-  top: 0;
-  position: fixed;
-  z-index: 99;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
-}
+
 .menu-list ul {
-  
+  display: flex;
 }
 .menu-list li {
   list-style: none;
-  padding: 2rem 0rem;
-  margin: 0rem 4rem;
+  margin: 0rem 2rem;
 }
 .menu-list ul li a {
-  text-decoration: none;
+  color: #551a8b;
   font-size: 2rem;
-  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: lowercase;
 }
 
-.menu-btn span {
-  border-color: #ffffff;
-  border-width: 19px;
-  border-style: solid;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  background-color: white;
-  z-index: 999;
+.mob-menu-btn{
+  margin: 0rem 2rem;
+  display: none;
 }
 
+@media only screen and (max-width: 800px) {
+  .menu-list {
+    display: none;
+  }
+  .mob-menu-list {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    min-height: 100vh;
+    min-width: 40vw;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .mob-menu-list li {
+    padding: 2rem 0rem;
+    margin: 0rem 4rem;
+  }
+  .mob-menu-list li a {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  .mob-menu-btn{
+    display: block;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .mob-menu-btn span {
+    border-color: #ffffff;
+    border-width: 19px;
+    border-style: solid;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    z-index: 999;
+  }
+}
 /*
   .theme {
     position: relative;
@@ -109,4 +133,3 @@
     text-decoration: none;
   }
  */
-
