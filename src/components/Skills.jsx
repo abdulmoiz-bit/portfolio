@@ -20,9 +20,9 @@ const Skills = () => {
                 </div>
                 <div className='skills-two'>
                     <div>
+                        <h1>System Design</h1>
                         <h1>Git & GitHub</h1>
-                        <h1>Docker</h1>
-                        <h1>AWS</h1>
+                        <h1>Docker & AWS</h1>
                     </div>
                     <div>
                         <h1>WireFraming</h1>
