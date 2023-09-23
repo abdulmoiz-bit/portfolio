@@ -1,10 +1,12 @@
-import MainHome from './pages/MainHome';
-import MainAbout from "./pages/MainAbout"
-import MainContact from "./pages/MainContact"
-import './App.scss';
+import MainHome from './views/MainHome';
+import MainAbout from "./views/MainAbout"
+import MainContact from "./views/MainContact"
 import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import "./App.css"
+
+
 
 
 function App() {
@@ -28,12 +30,12 @@ function App() {
 */
   return (
     <>
-    <Header/>
-      <Routes>
-        <Route path="/" element={<MainHome />} />
-        <Route path="/about" element={<MainAbout />} />
-        <Route path="/contact" element={<MainContact />} />
-      </Routes>
+      <Header/>
+        <Routes>
+          <Route path="/" element={<MainHome />} />
+          <Route path="/about" element={<MainAbout />} />
+          <Route path="/contact" element={<MainContact />} />
+        </Routes>
       <Footer/>
     </>
   );

@@ -2,17 +2,21 @@ import React, { useState } from 'react';
 import "./Header.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import avatar from "../images/avatar.png";
+import avatar from "../assets/images/avatar.png";
 import { NavLink } from 'react-router-dom';
 //import WbSunnyIcon from '@mui/icons-material/WbSunny';
 //import DarkModeIcon from '@mui/icons-material/DarkMode';
 //import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 const Header = () => {
+
     const [text, showText] = useState(false);
-    //const [open, showOpen] = useState(false);
     const [showMenu, setshowMenu] = useState(false);
-    //const [currentoption, setcurrentoption] = useState('LIGHT');
+
+
+
+
+
     return (
         <div className="header-section">
             <div className='avatar-image' onClick={() => showText(!text)}>
@@ -26,7 +30,7 @@ const Header = () => {
                 }
             </div>
 
-            <div className='menu-list' data-aos="fade-left">
+            <div className='menu-list'>
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
