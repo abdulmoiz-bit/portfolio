@@ -30,7 +30,7 @@ const Header = () => {
                 }
             </div>
 
-            <div className='menu-list'>
+            <div className={!showMenu ? "menu-list" : "mob-menu-list"} data-aos="fade-left" >
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
@@ -43,6 +43,8 @@ const Header = () => {
                     {!showMenu ? <MenuIcon /> : <CloseIcon />}
                 </span>
             </div>
+
+            {/*
             {showMenu && (
                 <div className='mob-menu-list' data-aos="fade-left">
                     <ul>
@@ -53,6 +55,7 @@ const Header = () => {
                 </div>
             )
             }
+        */}
 
         </div>
     )

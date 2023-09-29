@@ -20,7 +20,7 @@ const Portfolio = () => {
             a single product page, a cart that is functioned by redux,
             a billing address form, and a fully responsive site.
           </p>
-          <a target="_blank" rel="noreferrer" href='https://ecommercestore-kappa.vercel.app/' style={{ textDecoration: "none" }}>
+          <a target="_blank" rel="noreferrer" href='https://reactjsecommercestore.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
               See The Site Live
             </button>
@@ -41,7 +41,7 @@ const Portfolio = () => {
           <p>
            Website to buy ownership in your favorite sports team, just like stocks.
           </p>
-          <a target="_blank" rel="noreferrer" href='https://mysportfolio.vercel.app/' style={{ textDecoration: "none" }}>
+          <a target="_blank" rel="noreferrer" href='https://sportfolioo.vercel.app/' style={{ textDecoration: "none" }}>
             <button>
               See The Site Live 
             </button>
