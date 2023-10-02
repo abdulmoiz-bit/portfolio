@@ -30,7 +30,7 @@ const Header = () => {
                 }
             </div>
 
-            <div className={!showMenu ? "menu-list" : "mob-menu-list"} data-aos="fade-left" >
+            <div className={showMenu ? "mob-menu-list" : "menu-list"}>
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
@@ -40,7 +40,7 @@ const Header = () => {
 
             <div className="mob-menu-btn">
                 <span onClick={() => setshowMenu(!showMenu)}>
-                    {!showMenu ? <MenuIcon /> : <CloseIcon />}
+                    {!showMenu ? <MenuIcon /> : <CloseIcon /> }
                 </span>
             </div>
 
